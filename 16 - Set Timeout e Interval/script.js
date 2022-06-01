@@ -1,9 +1,29 @@
 // Mude a cor da tela para azul e depois para vermelho a cada 2s.
+
+/* adicionar no HTML 
+
+<body>
+  <style>
+     body {
+      background: blue;
+    }
+    body.active {
+      background: red;
+    } 
+  
+    </style> 
+
+    */
+// depois disso utilizar a função de mudar classe, ela vai mudar a cada 2 segundos pois colocou o body como ativo 
+
 // function mudarClasse() {
 //   document.body.classList.toggle('active');
 // }
 
 // setInterval(mudarClasse, 2000);
+
+// ---------------------------------------------------------------------
+
 
 // Crie um cronometro utilizando o setInterval. Deve ser possível
 // iniciar, pausar e resetar (duplo clique no pausar).
